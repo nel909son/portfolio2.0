@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+body {
+    background-color: black;
+    height: 98vh;
+    width: 99vw;
+    overflow: hidden;
+}
+h2 {
+    padding: 0;
+    margin: 0;
+}
+.body-dark {
+    background-color: white;
+    
+}
+
+.div1 {
+    background-color: white;
+    height: 47.5%;
+    width: vw;
+    font-family: 'Zen Antique', serif;
+}
+
+.div1-dark {
+    background-color: black;
+}
+
+
+.div2 {
+    background-color: white;
+    height: 47.5%;
+    width: vw;
+    font-family: 'Zen Antique', serif;
+}
+.div2-dark {
+    background-color: black;
+}
+
+
+.scroll-bar {
+    border: 1px solid black;
+    height: 2%;
+    background-color: white;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.scroll-bar-dark {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.scroll-bar h1{
+    font-size: small;
+    text-transform:uppercase;
+    position: absolute;
+    text-align: center;
+    
+    display: inline-block;
+    white-space: nowrap;
+    animation: floatText 500s infinite linear;
+    padding-left: 100%; /*Initial offset*/
+    
+  
+  }
+  
+  
+  
+  @keyframes floatText {
+    to {
+      transform: translateX(-100%);
+    }
+  }
