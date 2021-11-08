@@ -2,9 +2,12 @@
 body {
     background-color: black;
     height: 98vh;
-    width: 99vw;
+    width: 98vw;
     overflow: hidden;
     transition: all 2s ease;
+}
+.main-container {
+    height: 100%;
 }
 
 .socialLinks {
@@ -69,6 +72,7 @@ a {
 
 
 h2 {
+    margin: 0;
     transform: translateY(-10px);
     transition: all 0.5s ease;
 }
@@ -112,10 +116,11 @@ ul{
 @media (max-width: 599px){
     .div1 {
         align-items: center;
-        width: 96vw;
+        height: 47.5%;
+        
     }
     .div1 img {
-        max-width: 200px;
+        
     }
 }
 
@@ -143,7 +148,14 @@ ul{
 @media (max-width:599px){
     .div2{
     justify-content: center;
+    align-items: center;
     width: 96vw;
+    height: 47.5%;
+    }
+    .work{
+        font-size: 0.9rem;
+
+        
     }
 }
 .div2-dark {
@@ -154,6 +166,11 @@ ul{
 
 .profile-pic {
     height: 300px;
+}
+@media (max-width:599px){
+    .profile-pic {
+        height: 67%;
+    }
 }
 
 .scroll-bar {
