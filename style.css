@@ -10,8 +10,31 @@ h2 h3 p{
     padding: 0;
     margin: 0;
     
+}
+.socialLinks {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#social1 #social2 #social3{
+    font-size: x-large;
+    transition: all 0.5s ease;
     
 }
+div {
+    padding: 0;
+    margin: 0;
+    display: inline
+}
+a {
+    text-decoration: none;
+    color:black;
+}  
+
 h2 {
     transition: all 0.5s ease;
 }
@@ -50,14 +73,7 @@ ul{
     max-width: 250px;
     
 }
-.div1 p {
-    transition: all 0.5s ease;
-}
 
-.div1 p:hover {
-    transform: translateY(-10px);
-    transition: all 0.5s ease;
-}
 
 @media (max-width: 599px){
     .div1 {
