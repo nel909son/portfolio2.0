@@ -81,6 +81,17 @@ h2:hover {
     transform: translateY(10px);
     transition: all 0.5s ease;
 }
+
+@media (max-width: 599px){
+    h2 {
+        font-size: 0.9rem;
+    }
+    #social1 #social2 #social3 #social4{
+    font-size: small;
+    transition: all 0.5s ease;
+    
+}
+}
 ul{
     
 }
@@ -193,7 +204,7 @@ ul{
 }
 
 .scroll-bar h1{
-    font-size: small;
+    font-size: xx-small;
     text-transform:uppercase;
     position: absolute;
     text-align: center;
