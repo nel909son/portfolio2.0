@@ -204,7 +204,7 @@ p {
 @media (max-width:599px){
     .profile-pic {
         height: 67%;
-        display: block;
+        display: none;
     }
     h3 {
         font-size: 0.9rem;
