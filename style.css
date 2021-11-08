@@ -6,13 +6,9 @@ body {
     overflow: hidden;
     transition: all 2s ease;
 }
-h2 h3 p{
-    padding: 0;
-    margin: 0;
-    
-}
+
 .socialLinks {
-    padding: 0;
+    
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -20,9 +16,38 @@ h2 h3 p{
     justify-content: center;
 }
 
-#social1 #social2 #social3{
+@media (max-width:599px){
+    .socialLinks {
+        padding-left: 3vw;
+    }
+}
+
+#social1 #social2 #social3 #social4{
     font-size: x-large;
     transition: all 0.5s ease;
+    
+}
+#social1:hover {
+    font-weight: 800;
+    transition: all 0.5s ease;
+       
+}
+#social2:hover {
+    font-weight: 800;
+    transition: all 0.5s ease;
+    
+    
+}
+#social3:hover {
+    font-weight: 800;
+    transition: all 0.5s ease;
+    
+    
+}
+#social4:hover {
+    font-weight: 800;
+    transition: all 0.5s ease;
+    
     
 }
 div {
@@ -33,13 +58,22 @@ div {
 a {
     text-decoration: none;
     color:black;
-}  
+    transition: all 0.5s ease;
+} 
+
+.a-dark{
+    color: white;
+    transition: all 0.5s ease;
+}
+
+
 
 h2 {
+    transform: translateY(-10px);
     transition: all 0.5s ease;
 }
 h2:hover {
-    transform: scale(1.1);
+    font-weight: 800;
     transform: translateY(10px);
     transition: all 0.5s ease;
 }
